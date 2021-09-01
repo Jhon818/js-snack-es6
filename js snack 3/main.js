@@ -1,18 +1,20 @@
 // Snack 3
 // Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).
-   let array = [1,2,3,4,5];
+const myFunction = () => {
+     array = [1,2,3,4,5]; 
+    a = 1;
+    b = 3;
+}
+  myFunction();
 
     const newArray = array.filter((element) => {
-         a = 1;
-         b = 3;
+     
         if (element > a && element < b){
             return true
         }
         else {
             return false
-        }
-       
-       
+        }  
     });
     console.log(newArray);
 
