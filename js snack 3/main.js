@@ -5,7 +5,7 @@
     const newArray = array.filter((element) => {
          a = 1;
          b = 3;
-        if (element <= b){
+        if (element > a && element < b){
             return true
         }
         else {
