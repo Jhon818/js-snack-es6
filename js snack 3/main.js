@@ -33,10 +33,12 @@ const myFunction = (array, a, b) => {
             return false
         }  
     });
+    console.log(newArray);
     return newArray;
 }
 
 myFunction(array, a, b);
+
 // versione corretta
     
 
