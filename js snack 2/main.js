@@ -29,7 +29,7 @@ console.log(serieA);
 // console.log(punteggi)
 
 const punteggi = [];
- punteggi.push(falliSubiti,name);
+ punteggi.push({falliSubiti,name});
 console.log(punteggi);
 
 
